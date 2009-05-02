@@ -1,3 +1,29 @@
-h1. Hamlize! **draft**
+h1. HAMLIZE!
 
-...
+DRYing up your development project by converting all HTML/ERB/CSS files in a specified path (recursively) to HAML/SASS.
+
+h2. Installation
+
+<pre>sudo gem install grimen-hamlize</pre>
+
+h2. Usage
+
+In your project root (@vendor@ will be ignored):
+
+h3. ERB/RHTML/HTML => HAML:
+
+<pre>hamlize</pre>
+
+h3. CSS => SASS:
+
+<pre>sassize</pre>
+
+h3. Both:
+
+<pre>hamlize+</pre>
+
+h2. Bugs & Feedback
+
+If you experience any issues/bugs or have feature requests, just file a GitHub-issue or send me a message.
+
+Copyright (c) 2009 Jonas Grimfelt

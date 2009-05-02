@@ -2,4 +2,4 @@
 
 require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'hamlize'))
 
-Hamlize.new.convert!(ARGV)
+Hamlize.new.convert! #(ARGV)
